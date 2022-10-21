@@ -1,0 +1,58 @@
+#body-page {
+    padding-top: 15vh;
+    text-align: center;
+}
+
+body {
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,71,121,1) 0%, rgba(72,38,196,1) 55%, rgba(95,87,153,1) 100%);
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+    height: 2.5em;
+    width: 5.5em;
+    border-radius: 10vw;
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
+
+
+#clock-img {   
+    height: 10vh; 
+}
+
+/* buttons */
+#iniciar-b {
+    width: 10vw;
+    background-color: green;
+}
+
+#iniciar-b:hover {
+    background-color: rgb(139, 180, 77);
+    cursor: pointer;
+}
+
+#pausar-b {
+    width: 10vw;
+    background-color: grey;
+}
+
+#pausar-b:hover {
+    background-color: rgb(155, 142, 142);
+    cursor: pointer;
+}
+
+#parar-b {
+    width: 10vw;
+    background-color: red;
+}
+
+#parar-b:hover {
+    background-color: rgb(210, 93, 93);
+    cursor: pointer;
+}
